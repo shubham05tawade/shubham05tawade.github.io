@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.header{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    color: #363638;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    align-items: center;
+    margin-right: 2rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #363638;
+    align-items: center;
+    font-size: medium;
+}
+.fa-bars{
+    color: #fff;
+}
+.user-snackbar{
+    font-size: 0.8rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    background-color: lightcoral;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-snackbar p{
+    margin-top: 0.7rem;
+}
+.user-snackbar button{
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    height: fit-content;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.1rem;
+}
+
+
+@media (max-width: 575.98px) { 
+    .navbar-brand{
+        margin-right: 0;
+    }
+    nav{
+        background-color: #111;
+        z-index: 3;
+        color: #fff;
+        margin: 0;
+        position: fixed;
+        top: 0;
+    }
+    .navbar-nav{
+        height: 100vh;
+        color: #fff;
+    }
+    .nav-item{
+        color: #fff;
+    }
+    .navbar-brand{
+        color: #fff;
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    .nav-item{
+        padding: 0.8rem;
+    }
+    .nav-item:nth-child(1){
+        margin-top: 2rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) { }

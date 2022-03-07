@@ -1,0 +1,41 @@
+.chatmessage{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.received{
+    margin: 0;
+    width: fit-content;
+    max-width: 70%;
+    background-color: #d7ebff;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1em;
+    display: flex;
+}
+.received p{
+    align-items: center;
+    margin: 0;
+}
+small{
+    font-size: 0.6rem;
+    color: #454545;
+}
+.sent{
+    margin: 0;
+    margin-left: auto;
+    max-width: 70%;
+    width: fit-content;
+    background-color: #131619;
+    color: #d4d4d4;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1em;
+    display: flex;
+    align-items: flex-end;
+}
+.sent p{
+    align-items: center;
+    margin: 0;
+}

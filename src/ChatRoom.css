@@ -1,0 +1,87 @@
+.chatroom{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+.chatroom .chatroom-title{
+  width: 100%;
+  background-color: #111111;
+  color: #fff;
+  height: 9vh;
+}
+.chatroom .chatroom-title h2{
+  font-size: 1rem;
+  line-height: 9vh;
+  margin-left: 1.2rem;
+}
+.chatroom-block{
+  margin-bottom: 1vh;
+  padding: 1vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+.chatroom-input{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 10vh;
+  background-color: #111;
+}
+.chatroom-input input{
+  border: none;
+  background-color: #111;
+  margin-top: 2vh;
+  border-radius: 0;
+  color: #fff;
+}
+.chatroom-input input:focus{
+  box-shadow: none;
+  background-color: #111;
+  color:#fff;
+}
+.chatroom-input .btn{
+  width: 0;
+  background-color: #111;
+  border-radius: 0;
+  color: #fff;
+  display: none;
+}
+  
+.chatroom-block::-webkit-scrollbar {
+width: 0.25rem;
+}
+
+.chatroom-block::-webkit-scrollbar-track {
+background: #f7f7f7;
+}
+
+.chatroom-block::-webkit-scrollbar-thumb {
+background: #ccc;
+}
+
+@media (max-width: 575.98px) { 
+  .chatroom{
+    height: 86vh;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) { }
